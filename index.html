@@ -9,17 +9,26 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/javascript/app.js"></script>
 </head> 
+<!-- Buttons will be rendered here!! -->
+<header id="buttons-view"></header>
 <body>
-    <!-- Buttons will be rendered here!! -->
-    <div id="buttons-view"></div>
+    <div>
     <form id="gif-form">
-        <label for="gif-input">
+        <div class="gif-input-label">
+            <label class="lable-text" for="gif-input">
             Add a Gif!
-        </label>
-        <input type="text" id="gif-input"/><br/>
+            </label>
+        
+             <input type="text" id="gif-input"/><br/>
+        </div>
         <!-- This will trigger the added gif function -->
+        
+    <div class="add-reset-buttons">
         <input id="add-gif" type="submit" value="Add a Gif!"/>
+        <button id="resetButton">Reset</button>
+    </div>
     </form>
+    <hr/>
     <!-- Gifs will be viewed here! -->
     <div class="ratingInfo" id="images">
 

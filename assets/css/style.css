@@ -1,0 +1,66 @@
+html {
+    background-color: gray;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    right: 0;
+    margin-bottom: 5px;
+}
+
+.gif-input-label {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+
+}
+
+.label-text {
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.gif-input {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+}
+
+.gif-btn {
+    background-color: rgb(40, 147, 115);
+    font-size: 14pt;
+}
+
+.add-reset-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+#add-gif {
+    background-color: rgb(40, 147, 115);
+    font-size: 12pt;
+    margin-right: 5px;
+}
+
+#resetButton {
+    background-color: rgb(40, 147, 115);
+    font-size: 12pt;
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: bottom;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: bottom;
+}
