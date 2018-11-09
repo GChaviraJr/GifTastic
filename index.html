@@ -1,40 +1,42 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta https-equiv="X-UA-Compatible" content="IE=edge">
     <title>GifTastic</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/javascript/app.js"></script>
-</head> 
+</head>
 <!-- Buttons will be rendered here!! -->
 <header id="buttons-view"></header>
+
 <body>
     <div>
-    <form id="gif-form">
-        <div class="gif-input-label">
-            <label class="lable-text" for="gif-input">
-            Add a Gif!
-            </label>
-        
-             <input type="text" id="gif-input"/><br/>
+        <form id="gif-form">
+            <div class="gif-input-label">
+                <label class="lable-text" for="gif-input">
+                    Add a Gif!
+                </label>
+
+                <input type="text" id="gif-input" /><br />
+            </div>
+            <!-- This will trigger the added gif function -->
+
+            <div class="add-reset-buttons">
+                <input id="add-gif" type="submit" value="Add a Gif!" />
+                <button id="resetButton">Reset</button>
+            </div>
+        </form>
+        <hr />
+        <!-- Gifs will be viewed here! -->
+        <div class="ratingInfo" id="images">
+
         </div>
-        <!-- This will trigger the added gif function -->
-        
-    <div class="add-reset-buttons">
-        <input id="add-gif" type="submit" value="Add a Gif!"/>
-        <button id="resetButton">Reset</button>
-    </div>
-    </form>
-    <hr/>
-    <!-- Gifs will be viewed here! -->
-    <div class="ratingInfo" id="images">
 
-    </div>
 
-    
 </body>
 
 </html>

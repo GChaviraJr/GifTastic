@@ -15,7 +15,9 @@ $(document).ready(function () {
                 var gifDiv = $("<div class='gif'>");
                 var rating = response.data[index].rating;
                 var imageUrl = response.data[index].images.original.url;
+
                 $('<img src="' + imageUrl + '"height="200px" />' + "<br/>" + "<p>Rating: " + rating + "</p>").appendTo('#images');
+
                 $("#images").append(gifDiv);
             })
         });
@@ -40,7 +42,7 @@ $(document).ready(function () {
     });
 
     $("#resetButton").on("click", function (event) {
-        $("<img>").remove();
+        $("#images").empty();
     })
 
     renderButtons()
